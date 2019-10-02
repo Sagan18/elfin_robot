@@ -134,6 +134,10 @@ Connect Elfin to the computer with a LAN cable. Then confirm the ethernet interf
 ```
 elfin_ethernet_name: eth0
 ```
+In the same file configure the values for count_zeros: The encoder counts of the joints when they are in home position.
+Please refer to the paper attached with the robot.
+You should also need to configure axis_torque_factors with the values for your robot model. Check the proper one in 
+*elfin_robot_bringup/config/elfin_drivers_example.yaml
 
 Load Elfin robot model：
 ```sh
